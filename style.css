@@ -73,7 +73,7 @@ body{
 }
 .banner-btn .banner1:hover{
     background-color: transparent;
-    border: 2px solid #30B868;
+    border: 1px solid #30B868;
     cursor: pointer;
 }
 .banner-info h1{
@@ -101,22 +101,28 @@ body{
 .banner-btn .banner1{
     background-color: #30B868;
     color: #fff;
-    width: 200px;
+    
     height: 52px;
     border: none;
     border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    margin-right: 20px;
 }
 .banner-btn .banner2{
     background-color: transparent;
     color: #fff;
-    width: 200px;
     height: 52px;
     border: 1px solid #fff;
     border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
 }
 .banner-btn .banner2:hover{
     background-color: #30B868;
-    border: 2px solid #30B868;
+    border: 1px solid #30B868;
     cursor: pointer;
 }
 /* Fail Section*/
