@@ -60,12 +60,98 @@ body{
     align-items: center;
     
 }
-.banner-info .banner-info-p{
+.banner-info .banner-info-btn{
     color: #30B868;
     background-color: #fff;
     border-radius: 1000px;
-
+    padding: 8px 12px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.banner-info h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.banner-info h1 span{
+    color: #30B868;
+}
+.banner-info-btn i{
+    font-size: 10px;
+    margin-bottom: 3px;
 }
 .banner-info{
     text-align: center;
+}
+.banner-info p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.banner-btn .banner1{
+    background-color: #30B868;
+    color: #fff;
+    width: 200px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+}
+.banner-btn .banner2{
+    background-color: transparent;
+    color: #fff;
+    width: 200px;
+    height: 52px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+/* Fail */
+.fail-container{
+    text-align: center;
+}
+.fail-container .fail-heading{
+    padding-top:40px ;
+}
+.fail-container .fail-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.fail-container .fail-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.fail-container .fail-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 144px;
+    
+}
+.fail-container .fail-card{
+    /* box-shadow: 10px 10px 5px 12px lightblue; */
+    padding: 24px;
+    border-radius: 8px;
+    margin-right: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fail-container .fail-cards img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.fail-cards h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+.fail-card p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 16px;
 }
